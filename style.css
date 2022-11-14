@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-image: url(./images/hero.avif);
+  background-size: 1900px;
+ 
+  
+
+
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #e02315;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.cabecalho-menu-item:hover {
+  color: blue;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+
+.conteudo-principal-escrito-subtitulo{
+ 
+  
+  
+
+  
+}
+
+
+
+.conteudo-principal-escrito-botao {
+  background-color:  red;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(21, 5, 88, 0.25);
+  border-radius: 20px;
+  font-family: 'sarala',sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 555px;
+  margin-top: 20px;
+  
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #ff1a09;
+  padding-top: 48px;
+  font-family: righteous,cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fa0f0f;
+  margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+  font-family: 'sarala'
+  font-weight: 900;
+  font-size: 18px;
+  color: #fa0f0f;
+}
+
+.rodape {
+  padding: 32px; 
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+.conteudo-principal-escrito-botao:hover{
+  background-color: rgba(200, 196, 236, 0.53);
+  cursor: pointer;
+  
+}
